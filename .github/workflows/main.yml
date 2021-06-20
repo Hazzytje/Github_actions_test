@@ -10,5 +10,5 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Hello world action step
-        uses: .github/docker/linux_build/
+        uses: ./.github/docker/linux_build/
         id: hello
